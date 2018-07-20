@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		1219FFAD075C041069C15A12 /* Pods-BGTTokenInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTTokenInputView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGTTokenInputView_Tests/Pods-BGTTokenInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C28D7CAFD623348DEDD4487 /* Pods-BGTTokenInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTTokenInputView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGTTokenInputView_Example/Pods-BGTTokenInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2A405E4C2FCF4CCAE31BF541 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A405E4C2FCF4CCAE31BF541 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B982EC46E45C8D759C7FA5E /* Pods-BGTTokenInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTTokenInputView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGTTokenInputView_Tests/Pods-BGTTokenInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5CFF34907C02F9A8F67B6CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CFF34907C02F9A8F67B6CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BGTTokenInputView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGTTokenInputView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7787A831D80E26CF801AB6EE /* Pods_BGTTokenInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTTokenInputView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF50974C603119D59840B5B5 /* Pods_BGTTokenInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTTokenInputView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA0AD5E7CA89BC37A4C7ABA6 /* BGTTokenInputView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BGTTokenInputView.podspec; path = ../BGTTokenInputView.podspec; sourceTree = "<group>"; };
+		BA0AD5E7CA89BC37A4C7ABA6 /* BGTTokenInputView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGTTokenInputView.podspec; path = ../BGTTokenInputView.podspec; sourceTree = "<group>"; };
 		E68C75C4FD37A9F9209C7CEB /* Pods-BGTTokenInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTTokenInputView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGTTokenInputView_Example/Pods-BGTTokenInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -511,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGTTokenInputView_Example.app/BGTTokenInputView_Example";
 			};
 			name = Debug;
@@ -529,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGTTokenInputView_Example.app/BGTTokenInputView_Example";
 			};
 			name = Release;

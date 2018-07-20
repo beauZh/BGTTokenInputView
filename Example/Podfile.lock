@@ -1,0 +1,16 @@
+PODS:
+  - BGTTokenInputView (0.1.0)
+
+DEPENDENCIES:
+  - BGTTokenInputView (from `../`)
+
+EXTERNAL SOURCES:
+  BGTTokenInputView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGTTokenInputView: 960d9baa4a7e4d8276b5d05e7a6af0311085ce83
+
+PODFILE CHECKSUM: 1da31e0f1b7fa45dfdbe4c21567bd0b8ebde1f6d
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module BGTTokenInputView {
+  umbrella header "BGTTokenInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}

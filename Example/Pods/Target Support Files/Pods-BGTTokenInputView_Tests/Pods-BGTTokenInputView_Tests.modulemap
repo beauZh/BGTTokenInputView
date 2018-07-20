@@ -1,0 +1,6 @@
+framework module Pods_BGTTokenInputView_Tests {
+  umbrella header "Pods-BGTTokenInputView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

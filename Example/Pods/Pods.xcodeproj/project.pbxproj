@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041F8E79D9D394D3C28E29B1D0E2B101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		08B2A1C87D925BC7E79D30FCBBE239BA /* Pods-BGTTokenInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A83B55555B9F1AF3D575011E41C4BB /* Pods-BGTTokenInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D782A06AC9A4FA5BD24A9165368ECA8 /* Pods-BGTTokenInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D57DDA6D224124E4234AE3EB09D0427F /* Pods-BGTTokenInputView_Tests-dummy.m */; };
+		5DE3C2620FE4907EB2F12E3057F315AA /* Pods-BGTTokenInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D01F6523B104EC28358090F17082D5D /* Pods-BGTTokenInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA1D97E839F02277E6C278227F3076B /* BGTTokenInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B11F9DE213BEBFBB90B9D24EC612D74 /* BGTTokenInputView-dummy.m */; };
+		91CEA9D13E20A79CF20C2AC0BF648710 /* BGTTokenInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1C9906B064990DC7B53C5CC9178138 /* BGTTokenInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B8216803A542AD6E872E82ABDDF56E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D923CD547AC355E0FC884DD97E0C144 /* Pods-BGTTokenInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FF2C0A04DB6C954A14A607C9808C7E /* Pods-BGTTokenInputView_Example-dummy.m */; };
+		A7E4DAF1E4C46AC90C254295D9C7C9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BC8CBD97210182B7002776DF /* TokenInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD92210182B7002776DF /* TokenInputView.swift */; };
+		BC8CBD98210182B7002776DF /* TokenInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD92210182B7002776DF /* TokenInputView.swift */; };
+		BC8CBD99210182B7002776DF /* TokenInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD92210182B7002776DF /* TokenInputView.swift */; };
+		BC8CBD9A210182B7002776DF /* TokenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD93210182B7002776DF /* TokenLabel.swift */; };
+		BC8CBD9B210182B7002776DF /* TokenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD93210182B7002776DF /* TokenLabel.swift */; };
+		BC8CBD9C210182B7002776DF /* TokenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD93210182B7002776DF /* TokenLabel.swift */; };
+		BC8CBD9D210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD94210182B7002776DF /* BackspaceDetectingTextField.swift */; };
+		BC8CBD9E210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD94210182B7002776DF /* BackspaceDetectingTextField.swift */; };
+		BC8CBD9F210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD94210182B7002776DF /* BackspaceDetectingTextField.swift */; };
+		BC8CBDA0210182B7002776DF /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD95210182B7002776DF /* Token.swift */; };
+		BC8CBDA1210182B7002776DF /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD95210182B7002776DF /* Token.swift */; };
+		BC8CBDA2210182B7002776DF /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD95210182B7002776DF /* Token.swift */; };
+		BC8CBDA3210182B7002776DF /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD96210182B7002776DF /* TokenView.swift */; };
+		BC8CBDA4210182B7002776DF /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD96210182B7002776DF /* TokenView.swift */; };
+		BC8CBDA5210182B7002776DF /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CBD96210182B7002776DF /* TokenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73D9A706A569C90725877DA9924D2697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D451DAE5F6CBD59A42A5908DD0D48786;
+			remoteInfo = "Pods-BGTTokenInputView_Example";
+		};
+		7ED41A9FDABDB9A17AC25BF1511C0098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE25BAD61DB46464655F2CA5655DAA27;
+			remoteInfo = BGTTokenInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06159EAFA05F38DC86DE5EA98091D698 /* Pods_BGTTokenInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTTokenInputView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D01F6523B104EC28358090F17082D5D /* Pods-BGTTokenInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BGTTokenInputView_Example-umbrella.h"; sourceTree = "<group>"; };
+		11A83B55555B9F1AF3D575011E41C4BB /* Pods-BGTTokenInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BGTTokenInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		13CFAD4A930EEC8B27AC491B48AA2E18 /* Pods-BGTTokenInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTTokenInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		16C200D6F91ACFE26823E2792A49A14A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1B80057AA2C2A3259DBBBC52BD01363E /* Pods-BGTTokenInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTTokenInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A0A939938B9D1F7F0F40945CC15F0EC /* BGTTokenInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGTTokenInputView.xcconfig; sourceTree = "<group>"; };
+		33E6580C628CF110F9D651255D44991B /* BGTTokenInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGTTokenInputView-prefix.pch"; sourceTree = "<group>"; };
+		3E1C9906B064990DC7B53C5CC9178138 /* BGTTokenInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGTTokenInputView-umbrella.h"; sourceTree = "<group>"; };
+		489640AC3972C9A2C8747D1B2BC9DD97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5042E14CF3B57F47DC4E399BF56C4C87 /* Pods-BGTTokenInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTTokenInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5075CDC92907115C32AE1302529D8DBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52764CFAFAA9E14C21D7016E8FBDB581 /* Pods-BGTTokenInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTTokenInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5771700BC048AB30D288F0876FA8FDBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E514E42FFBF76DB3DC3EBF5B645A8C5 /* Pods-BGTTokenInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGTTokenInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FCC73C81316BCBF931D9E08FC214B08 /* Pods-BGTTokenInputView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTTokenInputView_Tests-resources.sh"; sourceTree = "<group>"; };
+		64CEBF23E904EF6DDF520DE0C177C746 /* Pods-BGTTokenInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BGTTokenInputView_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B7B9AC6388DD4287D7B7BB7148D315 /* Pods_BGTTokenInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTTokenInputView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123DA889F0C49B340383C269D19240B /* Pods-BGTTokenInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BGTTokenInputView_Example.modulemap"; sourceTree = "<group>"; };
+		8909E28B628109BAF4A7B6ED9AFBA38B /* Pods-BGTTokenInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTTokenInputView_Example-resources.sh"; sourceTree = "<group>"; };
+		8B11F9DE213BEBFBB90B9D24EC612D74 /* BGTTokenInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGTTokenInputView-dummy.m"; sourceTree = "<group>"; };
+		8FF8569221D6BE3B07B4ECD691D825B9 /* Pods-BGTTokenInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGTTokenInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A561A513567DEC8932A002915D4F6E0 /* Pods-BGTTokenInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTTokenInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9E765FE0622FEABCEDA121A6483AD60E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3CE8A802EEFBF346A86E6E018114A3A /* BGTTokenInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BGTTokenInputView.podspec; sourceTree = "<group>"; };
+		AC55171EC26567315E55E0F9291615B3 /* Pods-BGTTokenInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTTokenInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB1E3498EAE83CC58F2E0F48D3C1DC93 /* Pods-BGTTokenInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGTTokenInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC8CBD92210182B7002776DF /* TokenInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenInputView.swift; path = BGTTokenInputView/Classes/TokenInputView.swift; sourceTree = "<group>"; };
+		BC8CBD93210182B7002776DF /* TokenLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenLabel.swift; path = BGTTokenInputView/Classes/TokenLabel.swift; sourceTree = "<group>"; };
+		BC8CBD94210182B7002776DF /* BackspaceDetectingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackspaceDetectingTextField.swift; path = BGTTokenInputView/Classes/BackspaceDetectingTextField.swift; sourceTree = "<group>"; };
+		BC8CBD95210182B7002776DF /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Token.swift; path = BGTTokenInputView/Classes/Token.swift; sourceTree = "<group>"; };
+		BC8CBD96210182B7002776DF /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenView.swift; path = BGTTokenInputView/Classes/TokenView.swift; sourceTree = "<group>"; };
+		C1BE36E8C89268998C5B1B31B6F1712F /* Pods-BGTTokenInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGTTokenInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CADD40A4E4D6456785953FB079FEDDC1 /* BGTTokenInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BGTTokenInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57DDA6D224124E4234AE3EB09D0427F /* Pods-BGTTokenInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGTTokenInputView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E4A257F868C61B0258D95F450D03C58A /* BGTTokenInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BGTTokenInputView.modulemap; sourceTree = "<group>"; };
+		E5FF2C0A04DB6C954A14A607C9808C7E /* Pods-BGTTokenInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGTTokenInputView_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC743C62B6EBD0AC4327B7170B6B95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F8E79D9D394D3C28E29B1D0E2B101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D420AEE25E322921C3377BC99F09A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B8216803A542AD6E872E82ABDDF56E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AD5ACE9D4EE7D01ABB029F90F94CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E4DAF1E4C46AC90C254295D9C7C9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6B21AE48F7FA5DB55F4768712AB485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADD40A4E4D6456785953FB079FEDDC1 /* BGTTokenInputView.framework */,
+				75B7B9AC6388DD4287D7B7BB7148D315 /* Pods_BGTTokenInputView_Example.framework */,
+				06159EAFA05F38DC86DE5EA98091D698 /* Pods_BGTTokenInputView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F52D9BEB358193359AC16A0E3CB047B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A257F868C61B0258D95F450D03C58A /* BGTTokenInputView.modulemap */,
+				2A0A939938B9D1F7F0F40945CC15F0EC /* BGTTokenInputView.xcconfig */,
+				8B11F9DE213BEBFBB90B9D24EC612D74 /* BGTTokenInputView-dummy.m */,
+				33E6580C628CF110F9D651255D44991B /* BGTTokenInputView-prefix.pch */,
+				3E1C9906B064990DC7B53C5CC9178138 /* BGTTokenInputView-umbrella.h */,
+				5771700BC048AB30D288F0876FA8FDBD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BGTTokenInputView";
+			sourceTree = "<group>";
+		};
+		530ECDB8B23A2D418898C0E6A2AB09E6 /* BGTTokenInputView */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CBD94210182B7002776DF /* BackspaceDetectingTextField.swift */,
+				BC8CBD95210182B7002776DF /* Token.swift */,
+				BC8CBD92210182B7002776DF /* TokenInputView.swift */,
+				BC8CBD93210182B7002776DF /* TokenLabel.swift */,
+				BC8CBD96210182B7002776DF /* TokenView.swift */,
+				A6FC20C156BEB055F91F416A94518794 /* Pod */,
+				3F52D9BEB358193359AC16A0E3CB047B /* Support Files */,
+			);
+			name = BGTTokenInputView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C7352CEAF4F9E8E17A7F900801C48981 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F6B21AE48F7FA5DB55F4768712AB485 /* Products */,
+				F333617986AE76EDDE3CB7C100FE45D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB3515D077E3B7CDACEE8BD96236550 /* Pods-BGTTokenInputView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				489640AC3972C9A2C8747D1B2BC9DD97 /* Info.plist */,
+				8123DA889F0C49B340383C269D19240B /* Pods-BGTTokenInputView_Example.modulemap */,
+				BB1E3498EAE83CC58F2E0F48D3C1DC93 /* Pods-BGTTokenInputView_Example-acknowledgements.markdown */,
+				C1BE36E8C89268998C5B1B31B6F1712F /* Pods-BGTTokenInputView_Example-acknowledgements.plist */,
+				E5FF2C0A04DB6C954A14A607C9808C7E /* Pods-BGTTokenInputView_Example-dummy.m */,
+				AC55171EC26567315E55E0F9291615B3 /* Pods-BGTTokenInputView_Example-frameworks.sh */,
+				8909E28B628109BAF4A7B6ED9AFBA38B /* Pods-BGTTokenInputView_Example-resources.sh */,
+				0D01F6523B104EC28358090F17082D5D /* Pods-BGTTokenInputView_Example-umbrella.h */,
+				13CFAD4A930EEC8B27AC491B48AA2E18 /* Pods-BGTTokenInputView_Example.debug.xcconfig */,
+				52764CFAFAA9E14C21D7016E8FBDB581 /* Pods-BGTTokenInputView_Example.release.xcconfig */,
+			);
+			name = "Pods-BGTTokenInputView_Example";
+			path = "Target Support Files/Pods-BGTTokenInputView_Example";
+			sourceTree = "<group>";
+		};
+		A6FC20C156BEB055F91F416A94518794 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3CE8A802EEFBF346A86E6E018114A3A /* BGTTokenInputView.podspec */,
+				16C200D6F91ACFE26823E2792A49A14A /* LICENSE */,
+				9E765FE0622FEABCEDA121A6483AD60E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF04FB0AAA5DB453F972A2A14E34DFB2 /* Pods-BGTTokenInputView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5075CDC92907115C32AE1302529D8DBE /* Info.plist */,
+				64CEBF23E904EF6DDF520DE0C177C746 /* Pods-BGTTokenInputView_Tests.modulemap */,
+				8FF8569221D6BE3B07B4ECD691D825B9 /* Pods-BGTTokenInputView_Tests-acknowledgements.markdown */,
+				5E514E42FFBF76DB3DC3EBF5B645A8C5 /* Pods-BGTTokenInputView_Tests-acknowledgements.plist */,
+				D57DDA6D224124E4234AE3EB09D0427F /* Pods-BGTTokenInputView_Tests-dummy.m */,
+				9A561A513567DEC8932A002915D4F6E0 /* Pods-BGTTokenInputView_Tests-frameworks.sh */,
+				5FCC73C81316BCBF931D9E08FC214B08 /* Pods-BGTTokenInputView_Tests-resources.sh */,
+				11A83B55555B9F1AF3D575011E41C4BB /* Pods-BGTTokenInputView_Tests-umbrella.h */,
+				5042E14CF3B57F47DC4E399BF56C4C87 /* Pods-BGTTokenInputView_Tests.debug.xcconfig */,
+				1B80057AA2C2A3259DBBBC52BD01363E /* Pods-BGTTokenInputView_Tests.release.xcconfig */,
+			);
+			name = "Pods-BGTTokenInputView_Tests";
+			path = "Target Support Files/Pods-BGTTokenInputView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7352CEAF4F9E8E17A7F900801C48981 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				530ECDB8B23A2D418898C0E6A2AB09E6 /* BGTTokenInputView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F333617986AE76EDDE3CB7C100FE45D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB3515D077E3B7CDACEE8BD96236550 /* Pods-BGTTokenInputView_Example */,
+				AF04FB0AAA5DB453F972A2A14E34DFB2 /* Pods-BGTTokenInputView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08015233D230245F90060BC439DADE26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE3C2620FE4907EB2F12E3057F315AA /* Pods-BGTTokenInputView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB692CC319E34E9D4008104971D2A52D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CEA9D13E20A79CF20C2AC0BF648710 /* BGTTokenInputView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F786EE1E924B10C4FDF7A3BD49963A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B2A1C87D925BC7E79D30FCBBE239BA /* Pods-BGTTokenInputView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		627291DB71E7DCB9FBB247908B5D9AE7 /* Pods-BGTTokenInputView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19106380D4695AF6350019D6173C19D7 /* Build configuration list for PBXNativeTarget "Pods-BGTTokenInputView_Tests" */;
+			buildPhases = (
+				964161B55F5329336447CAA2A1907582 /* Sources */,
+				F2AD5ACE9D4EE7D01ABB029F90F94CBF /* Frameworks */,
+				E5F786EE1E924B10C4FDF7A3BD49963A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E658E10231EEE750814E9232A1FAE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BGTTokenInputView_Tests";
+			productName = "Pods-BGTTokenInputView_Tests";
+			productReference = 06159EAFA05F38DC86DE5EA98091D698 /* Pods_BGTTokenInputView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE25BAD61DB46464655F2CA5655DAA27 /* BGTTokenInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C27A39A8D91C1AA7C8E620D288F8169 /* Build configuration list for PBXNativeTarget "BGTTokenInputView" */;
+			buildPhases = (
+				C9ED60986D95EF1B49B1B6D2CA46FF63 /* Sources */,
+				2EC743C62B6EBD0AC4327B7170B6B95D /* Frameworks */,
+				CB692CC319E34E9D4008104971D2A52D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGTTokenInputView;
+			productName = BGTTokenInputView;
+			productReference = CADD40A4E4D6456785953FB079FEDDC1 /* BGTTokenInputView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D451DAE5F6CBD59A42A5908DD0D48786 /* Pods-BGTTokenInputView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937C3E3101BADEF775BCC224CBD031C6 /* Build configuration list for PBXNativeTarget "Pods-BGTTokenInputView_Example" */;
+			buildPhases = (
+				ACC718D86988FB23976DA90D7044803D /* Sources */,
+				3D420AEE25E322921C3377BC99F09A1B /* Frameworks */,
+				08015233D230245F90060BC439DADE26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC96B8EB977475DB7D9503A46B969366 /* PBXTargetDependency */,
+			);
+			name = "Pods-BGTTokenInputView_Example";
+			productName = "Pods-BGTTokenInputView_Example";
+			productReference = 75B7B9AC6388DD4287D7B7BB7148D315 /* Pods_BGTTokenInputView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					627291DB71E7DCB9FBB247908B5D9AE7 = {
+						LastSwiftMigration = 0940;
+					};
+					D451DAE5F6CBD59A42A5908DD0D48786 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F6B21AE48F7FA5DB55F4768712AB485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE25BAD61DB46464655F2CA5655DAA27 /* BGTTokenInputView */,
+				D451DAE5F6CBD59A42A5908DD0D48786 /* Pods-BGTTokenInputView_Example */,
+				627291DB71E7DCB9FBB247908B5D9AE7 /* Pods-BGTTokenInputView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964161B55F5329336447CAA2A1907582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D782A06AC9A4FA5BD24A9165368ECA8 /* Pods-BGTTokenInputView_Tests-dummy.m in Sources */,
+				BC8CBDA2210182B7002776DF /* Token.swift in Sources */,
+				BC8CBDA5210182B7002776DF /* TokenView.swift in Sources */,
+				BC8CBD99210182B7002776DF /* TokenInputView.swift in Sources */,
+				BC8CBD9C210182B7002776DF /* TokenLabel.swift in Sources */,
+				BC8CBD9F210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC718D86988FB23976DA90D7044803D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D923CD547AC355E0FC884DD97E0C144 /* Pods-BGTTokenInputView_Example-dummy.m in Sources */,
+				BC8CBDA1210182B7002776DF /* Token.swift in Sources */,
+				BC8CBDA4210182B7002776DF /* TokenView.swift in Sources */,
+				BC8CBD98210182B7002776DF /* TokenInputView.swift in Sources */,
+				BC8CBD9B210182B7002776DF /* TokenLabel.swift in Sources */,
+				BC8CBD9E210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ED60986D95EF1B49B1B6D2CA46FF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CBD9D210182B7002776DF /* BackspaceDetectingTextField.swift in Sources */,
+				BC8CBD9A210182B7002776DF /* TokenLabel.swift in Sources */,
+				BC8CBD97210182B7002776DF /* TokenInputView.swift in Sources */,
+				BC8CBDA3210182B7002776DF /* TokenView.swift in Sources */,
+				BC8CBDA0210182B7002776DF /* Token.swift in Sources */,
+				6BA1D97E839F02277E6C278227F3076B /* BGTTokenInputView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E658E10231EEE750814E9232A1FAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BGTTokenInputView_Example";
+			target = D451DAE5F6CBD59A42A5908DD0D48786 /* Pods-BGTTokenInputView_Example */;
+			targetProxy = 73D9A706A569C90725877DA9924D2697 /* PBXContainerItemProxy */;
+		};
+		DC96B8EB977475DB7D9503A46B969366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGTTokenInputView;
+			target = BE25BAD61DB46464655F2CA5655DAA27 /* BGTTokenInputView */;
+			targetProxy = 7ED41A9FDABDB9A17AC25BF1511C0098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D21D96B65270E38FCD92254338B4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0A939938B9D1F7F0F40945CC15F0EC /* BGTTokenInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BGTTokenInputView/BGTTokenInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BGTTokenInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BGTTokenInputView/BGTTokenInputView.modulemap";
+				PRODUCT_MODULE_NAME = BGTTokenInputView;
+				PRODUCT_NAME = BGTTokenInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A77855F51C714A1DA10C583736AF93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5042E14CF3B57F47DC4E399BF56C4C87 /* Pods-BGTTokenInputView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTTokenInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTTokenInputView_Tests/Pods-BGTTokenInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84037DC33C63F6C0CCDE365876D93CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B80057AA2C2A3259DBBBC52BD01363E /* Pods-BGTTokenInputView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTTokenInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTTokenInputView_Tests/Pods-BGTTokenInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86DFA39BCF98705F34C563D7DD7CEB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CFAD4A930EEC8B27AC491B48AA2E18 /* Pods-BGTTokenInputView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTTokenInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTTokenInputView_Example/Pods-BGTTokenInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A8DA0762927562D727EE37567425A6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52764CFAFAA9E14C21D7016E8FBDB581 /* Pods-BGTTokenInputView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTTokenInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTTokenInputView_Example/Pods-BGTTokenInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C273A5676326AD52B518A417743A9141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0A939938B9D1F7F0F40945CC15F0EC /* BGTTokenInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BGTTokenInputView/BGTTokenInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BGTTokenInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BGTTokenInputView/BGTTokenInputView.modulemap";
+				PRODUCT_MODULE_NAME = BGTTokenInputView;
+				PRODUCT_NAME = BGTTokenInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C27A39A8D91C1AA7C8E620D288F8169 /* Build configuration list for PBXNativeTarget "BGTTokenInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C273A5676326AD52B518A417743A9141 /* Debug */,
+				4D21D96B65270E38FCD92254338B4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19106380D4695AF6350019D6173C19D7 /* Build configuration list for PBXNativeTarget "Pods-BGTTokenInputView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A77855F51C714A1DA10C583736AF93F /* Debug */,
+				84037DC33C63F6C0CCDE365876D93CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937C3E3101BADEF775BCC224CBD031C6 /* Build configuration list for PBXNativeTarget "Pods-BGTTokenInputView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DFA39BCF98705F34C563D7DD7CEB09 /* Debug */,
+				A8DA0762927562D727EE37567425A6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

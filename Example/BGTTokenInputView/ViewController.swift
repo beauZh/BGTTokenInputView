@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import BGTTokenInputView
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var tokenInputView: TokenInputView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //Setup tokenInputView
+        tokenInputView.fieldName = "Name:"
+        tokenInputView.placeholderText = "Enter a Name:"
+        tokenInputView.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
+extension ViewController: TokenInputViewDelegate {
+    //TokenInputView's Delegate methods
+    func tokenInputViewTokenForText(_ view: TokenInputView, text searchToken: String) -> Token? {
+        return Token(displayText: searchToken, baseObject: searchToken as AnyObject)
+    }
+}

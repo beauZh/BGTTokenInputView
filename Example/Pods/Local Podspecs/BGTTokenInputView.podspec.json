@@ -1,0 +1,22 @@
+{
+  "name": "BGTTokenInputView",
+  "version": "0.1.0",
+  "summary": "A short description of BGTTokenInputView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/beauzhang@live.ca/BGTTokenInputView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "beauzhang@live.ca": "beauzhang@live.ca"
+  },
+  "source": {
+    "git": "https://github.com/beauzhang@live.ca/BGTTokenInputView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BGTTokenInputView/Classes/**/*"
+}
