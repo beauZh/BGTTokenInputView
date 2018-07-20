@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BGTTokenInputView_Example' do
+  pod 'BGTTokenInputView', :path => '../'
+
+  target 'BGTTokenInputView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
